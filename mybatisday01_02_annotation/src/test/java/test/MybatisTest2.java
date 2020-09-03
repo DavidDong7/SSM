@@ -1,8 +1,7 @@
 package test;
 
-import neusoft.dao.IUserDao1;
-import neusoft.dao.IUserDao1;
-import neusoft.domain.User;
+import com.neusoft.dao.IUserDao1;
+import com.neusoft.domain.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;

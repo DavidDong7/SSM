@@ -1,4 +1,4 @@
-package neusoft.domain;
+package com.neusoft.domain;
 
 import java.io.Serializable;
 import java.util.Date;

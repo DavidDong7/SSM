@@ -1,6 +1,6 @@
-package neusoft.dao;
+package com.neusoft.dao;
 
-import neusoft.domain.User;
+import com.neusoft.domain.User;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
