@@ -44,16 +44,22 @@
             <resource>
                 <directory>src/main/resources</directory>
                 <!-- 是否被过滤,如果被过滤则无法使用 -->
-                <filtering>false</filtering>
+<!--                <filtering>false</filtering>-->
+                <includes>
+                    <include>**/*.xml</include>
+                    <include>**/*.properties</include>
+                </includes>
+<!--                <filtering>false</filtering>-->
             </resource>
             <!-- java文件夹 -->
             <resource>
                 <directory>src/main/java</directory>
                 <!-- 引入映射文件等 -->
-                <includes>
-                    <include>**/*.xml</include>
-                    <include>**/*.properties</include>
-                </includes>
+<!--                <includes>-->
+<!--                    <include>**/*.xml</include>-->
+<!--                    <include>**/*.properties</include>-->
+<!--                </includes>-->
+                <filtering>false</filtering>
             </resource>
         </resources>
     </build>

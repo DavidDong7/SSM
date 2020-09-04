@@ -36,40 +36,30 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatisday01_03_dao_crud/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatisday01_03_dao_crud/target/classes/com/neusoft/dao" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.12515645" />
     <property name="project.structure.side.proportion" value="0.17256635" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaPro\Github\SSM\mybatisday01_03_dao_crud\src\main\resources\com\neusoft\dao" />
+      <recent name="D:\JavaPro\Github\SSM\mybatisday01_03_dao_crud\src\main\java\com\neusoft\dao" />
+      <recent name="D:\JavaPro\Github\SSM\mybatisday01_03_dao_crud\src\main\resources\com.neusoft.dao" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaPro\Github\SSM\mybatisday01_03_dao_crud\target\classes\com\neusoft\dao" />
       <recent name="D:\JavaPro\Github\SSM\mybatisday01_03_dao_crud\src\main\resources" />
       <recent name="D:\JavaPro\Github\SSM\mybatisday01_03_dao_crud\src\main\resources\com.neusoft.dao" />
       <recent name="D:\JavaPro\Github\SSM\mybatisday01_03_dao_crud\src\main\java" />
       <recent name="D:\JavaPro\Github\SSM\mybatisday01_03_dao_crud\src\test\java" />
-      <recent name="D:\JavaPro\Github\SSM\mybatisday01_02_annotation\src\main\resources\neusoft\dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest3">
-    <configuration name="MybatisTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisday01_02_annotation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MybatisTest2" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MybatisTest3.testSave">
     <configuration name="MybatisTest2.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisday01_02_annotation" />
       <extension name="coverage">
@@ -133,13 +123,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MybatisTest3.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_03_dao_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest3" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest3" />
+        <item itemvalue="JUnit.MybatisTest3.testSave" />
         <item itemvalue="JUnit.MybatisTest3.testFindOne" />
+        <item itemvalue="JUnit.MybatisTest3" />
         <item itemvalue="JUnit.MybatisTest2.test2" />
         <item itemvalue="JUnit.MybatisTest2.test1" />
-        <item itemvalue="JUnit.MybatisTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +173,7 @@
       <updated>1599100763451</updated>
       <workItem from="1599100778570" duration="7798000" />
       <workItem from="1599114826136" duration="7575000" />
+      <workItem from="1599179585037" duration="8923000" />
     </task>
     <servers />
   </component>
@@ -182,42 +189,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="177" y="99" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1599101698485" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599102514949">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599182372191">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599102514949" />
-    <state width="1493" height="510" key="GridCell.Tab.0.bottom" timestamp="1599124242855">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599182372191" />
+    <state width="1493" height="292" key="GridCell.Tab.0.bottom" timestamp="1599188570805">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="510" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599124242855" />
-    <state width="1493" height="510" key="GridCell.Tab.0.center" timestamp="1599124242855">
+    <state width="1493" height="292" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599188570805" />
+    <state width="1493" height="292" key="GridCell.Tab.0.center" timestamp="1599188570804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="510" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599124242855" />
-    <state width="1493" height="510" key="GridCell.Tab.0.left" timestamp="1599124242854">
+    <state width="1493" height="292" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599188570804" />
+    <state width="1493" height="292" key="GridCell.Tab.0.left" timestamp="1599188570804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="510" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599124242854" />
-    <state width="1493" height="510" key="GridCell.Tab.0.right" timestamp="1599124242855">
+    <state width="1493" height="292" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599188570804" />
+    <state width="1493" height="292" key="GridCell.Tab.0.right" timestamp="1599188570804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="510" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599124242855" />
-    <state width="1493" height="510" key="GridCell.Tab.1.bottom" timestamp="1599124242855">
+    <state width="1493" height="292" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599188570804" />
+    <state width="1493" height="510" key="GridCell.Tab.1.bottom" timestamp="1599184388236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="510" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599124242855" />
-    <state width="1493" height="510" key="GridCell.Tab.1.center" timestamp="1599124242855">
+    <state width="1493" height="510" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599184388236" />
+    <state width="1493" height="510" key="GridCell.Tab.1.center" timestamp="1599184388236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="510" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599124242855" />
-    <state width="1493" height="510" key="GridCell.Tab.1.left" timestamp="1599124242855">
+    <state width="1493" height="510" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599184388236" />
+    <state width="1493" height="510" key="GridCell.Tab.1.left" timestamp="1599184388236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="510" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599124242855" />
-    <state width="1493" height="510" key="GridCell.Tab.1.right" timestamp="1599124242855">
+    <state width="1493" height="510" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599184388236" />
+    <state width="1493" height="510" key="GridCell.Tab.1.right" timestamp="1599184388236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="510" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599124242855" />
+    <state width="1493" height="510" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599184388236" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1599106383040">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

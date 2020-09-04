@@ -12,6 +12,7 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Date;
 import java.util.List;
 
 public class MybatisTest3 {
@@ -50,15 +51,25 @@ public class MybatisTest3 {
 
     }
 
+    @Test
+    public void testSave(){
+       User user = new User();
+       user.setUsername("礼拜");
+       user.setBirthday(new Date());
+       user.setSex("男");
+       user.setAddress("野区");
 
+        System.out.println("保存之前"+user);
+        int i = userDao.saveUser(user);
+        System.out.println("影响的行数"+i);
 
+    }
 
-
-
-
-
-
-
+    @Test
+    public void testUpdate(){
+        User user = new User();
+        user
+    }
 
 
 
