@@ -44,35 +44,63 @@ public class MybatisTest3 {
     }
 
     @Test
-    public void testFindOne(){
+    public void testFindOne()
+    {
         User user = userDao.findById(45);
 
-            System.out.println(user);
+        System.out.println(user);
 
     }
 
     @Test
-    public void testSave(){
-       User user = new User();
-       user.setUsername("礼拜");
-       user.setBirthday(new Date());
-       user.setSex("男");
-       user.setAddress("野区");
-
-        System.out.println("保存之前"+user);
-        int i = userDao.saveUser(user);
-        System.out.println("影响的行数"+i);
-
-    }
-
-    @Test
-    public void testUpdate(){
+    public void testSave()
+    {
         User user = new User();
-        user
+        user.setUsername("礼拜");
+        user.setBirthday(new Date());
+        user.setSex("男");
+        user.setAddress("野区");
+
+        System.out.println("保存之前" + user);
+        int i = userDao.saveUser(user);
+        System.out.println("影响的行数" + i);
+
     }
 
+    @Test
+    public void testUpdate()
+    {
+        User user = new User();
+        user.setId(54);
+        user.setUsername("李白");
+        user.setBirthday(new Date());
+        user.setSex("男");
+        user.setAddress("王者峡谷打野区");
 
+        System.out.println("修改之前"+user);
+        int i = userDao.updateUser(user);
+        System.out.println("影响的行数"+i);
+    }
 
+    @Test
+    public void testDelete(){
 
+        int res = userDao.deleteUser(54);
+        System.out.println("res"+res);
+    }
+
+    @Test
+    public void testFindByName(){
+        List<User> list = userDao.findByName("%二%");
+        for(User user:list){
+            System.out.println(user);
+        }
+    }
+
+    @Test
+    public void testFindTotal(){
+        int total = userDao.findTotal();
+        System.out.println(total);
+    }
 
 }

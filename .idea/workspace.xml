@@ -59,40 +59,8 @@
       <recent name="D:\JavaPro\Github\SSM\mybatisday01_03_dao_crud\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest3.testSave">
-    <configuration name="MybatisTest2.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisday01_02_annotation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MybatisTest2" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTest2.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisday01_02_annotation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MybatisTest2" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTest3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MybatisTest3.testFindTotal">
+    <configuration name="MybatisTest3.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisday01_03_dao_crud" />
       <extension name="coverage">
         <pattern>
@@ -102,12 +70,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.MybatisTest3" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest3.testFindOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTest3.testFindByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisday01_03_dao_crud" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +86,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.MybatisTest3" />
-      <option name="METHOD_NAME" value="testFindOne" />
+      <option name="METHOD_NAME" value="testFindByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest3.testFindTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_03_dao_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest3" />
+      <option name="METHOD_NAME" value="testFindTotal" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,13 +124,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MybatisTest3.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisday01_03_dao_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MybatisTest3" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisTest3.testFindTotal" />
+        <item itemvalue="JUnit.MybatisTest3.testFindByName" />
+        <item itemvalue="JUnit.MybatisTest3.testDelete" />
+        <item itemvalue="JUnit.MybatisTest3.testUpdate" />
         <item itemvalue="JUnit.MybatisTest3.testSave" />
-        <item itemvalue="JUnit.MybatisTest3.testFindOne" />
-        <item itemvalue="JUnit.MybatisTest3" />
-        <item itemvalue="JUnit.MybatisTest2.test2" />
-        <item itemvalue="JUnit.MybatisTest2.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +174,7 @@
       <updated>1599100763451</updated>
       <workItem from="1599100778570" duration="7798000" />
       <workItem from="1599114826136" duration="7575000" />
-      <workItem from="1599179585037" duration="8923000" />
+      <workItem from="1599179585037" duration="15281000" />
     </task>
     <servers />
   </component>
@@ -193,22 +194,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599182372191" />
-    <state width="1493" height="292" key="GridCell.Tab.0.bottom" timestamp="1599188570805">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1599199626375">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="292" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599188570805" />
-    <state width="1493" height="292" key="GridCell.Tab.0.center" timestamp="1599188570804">
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599199626375" />
+    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1599199626375">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="292" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599188570804" />
-    <state width="1493" height="292" key="GridCell.Tab.0.left" timestamp="1599188570804">
+    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599199626375" />
+    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1599199626375">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="292" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599188570804" />
-    <state width="1493" height="292" key="GridCell.Tab.0.right" timestamp="1599188570804">
+    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599199626375" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1599199626375">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="292" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599188570804" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599199626375" />
     <state width="1493" height="510" key="GridCell.Tab.1.bottom" timestamp="1599184388236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -229,9 +230,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599106383040" />
-    <state x="178" y="22" key="new project wizard" timestamp="1599121182446">
+    <state x="178" y="22" key="new project wizard" timestamp="1599199679137">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="22" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1599121182446" />
+    <state x="178" y="22" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1599199679137" />
   </component>
 </project>

@@ -14,4 +14,16 @@ public interface IUserDao2 {
 
 //    返回自增长id值
     int saveUser(User user);
+
+    //修改
+    int updateUser(User user);
+
+    //删除
+    int deleteUser(Integer id);
+
+    //模糊查询
+    List<User> findByName(String username);
+
+    //查询总记录数
+    int findTotal();
 }

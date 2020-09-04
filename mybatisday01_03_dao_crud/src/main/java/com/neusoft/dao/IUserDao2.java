@@ -19,7 +19,7 @@ public interface IUserDao2 {
     int updateUser(User user);
 
     //删除
-    int deleteUser(User user);
+    int deleteUser(Integer id);
 
     //模糊查询
     List<User> findByName(String username);

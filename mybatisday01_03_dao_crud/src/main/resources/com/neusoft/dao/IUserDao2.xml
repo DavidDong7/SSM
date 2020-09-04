@@ -37,20 +37,20 @@
 <!--    修改用户-->
 <!--    updateUser-->
     <update id="updateUser" parameterType="com.neusoft.domain.User">
-        update user set username = ${username},birthday = ${birthday},
-        sex = ${sex},address = ${address} where id = ${id}
+         update user set username = #{username},birthday=#{birthday},
+        sex=#{sex}, address=#{address} where id = #{id}
     </update>
 
 <!--    删除用户-->
 <!--    deleteUser-->
     <delete id="deleteUser" parameterType="com.neusoft.domain.User">
-        delete from user where id = ${id}
+        delete from user where id = #{id}
     </delete>
 
 <!--根据姓名模糊查询-->
 <!--findByName-->
     <select id="findByName" parameterType="String" resultType="com.neusoft.domain.User">
-        select * from user where username like ${username}
+        select * from user where username like #{username}
     </select>
 
 <!--    查询总记录数-->
