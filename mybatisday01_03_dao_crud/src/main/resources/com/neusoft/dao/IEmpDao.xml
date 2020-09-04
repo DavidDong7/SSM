@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neusoft.dao.IEmpDao">
+
+    <resultMap id="userMap" type="emp">
+        <!--        id标签 主键字段的对应-->
+
+        <id property="emp_no" column="EMPNO"></id>
+        <!--       result标签 用于指定非主键  ， column是数据库中列名-->
+        <!--        property 用于指定实体类属性名名称-->
+        <result property="e_name" column="ENAME"></result>
+        <result property="e_job" column="JOB"></result>
+        <result property="mgr" column="MGR"></result>
+        <result property="hirdate" column="HIREDATE"></result>
+        <result property="sal" column="SAL"></result>
+        <result property="comm" column="COMM"></result>
+        <result property="dept_no" column="DEPTNO"></result>
+
+    </resultMap>
+
+    <select id="findAll" resultType="userMap">
+        select * from emp
+    </select>
+
+</mapper>
