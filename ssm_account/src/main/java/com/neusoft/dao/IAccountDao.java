@@ -12,4 +12,7 @@ public interface IAccountDao {
     //查询所有账户信息
     @Select("select * from account")
     public List<Account> findAll();
+
+    @Select("insert into account(name,money) values(#{name},#{money})")
+    public List<Account> saveAccount(Account account);
 }
