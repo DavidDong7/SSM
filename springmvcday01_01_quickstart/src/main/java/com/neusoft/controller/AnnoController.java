@@ -1,0 +1,46 @@
+package com.neusoft.controller;
+
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@Controller
+@RequestMapping("/anno")
+public class AnnoController {
+
+    @RequestMapping("/testRequestParam")
+    public String testRequestParam(@RequestParam(name = "name",required = false) String username,
+                                   @RequestParam(value = "pass") String password ){
+        //作用:把请求中的指定名称的参数传递给控制器中的形参赋值
+        //2、属性
+        //1、value  请求参数中的名称
+        //2、required  请求参数中是否必须提供此参数，默认值是true，必须提供
+        System.out.println("testRequestParam");
+        System.out.println(username);
+        System.out.println(password);
+        return "success";
+    }
+
+
+    @RequestMapping("/testRequestBody")
+    public String testRequestBody(@RequestBody String body){
+        //用于获取请求体的内容（注意：get方法不可以）
+        //2、属性
+        //1、required：是否必须有请求体  默认为true
+        System.out.println("RequestBody.....");
+        System.out.println(body);
+        return "success";
+    }
+
+    @RequestMapping("/testPathVariable/{sid}")
+    public String testPathVariable(@PathVariable(name = "sid") String id){
+        //拥有绑定url中的占位符。例如：url中有、delete/{id},{id} 就是占位符
+        //Restful风格的url：请求路径一样，可以根据不同的请求方式去执行后台的不同方法
+        System.out.println("testPathVariable");
+        System.out.println(id);
+        return "success";
+    }
+}

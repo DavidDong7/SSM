@@ -46,4 +46,9 @@ public class MybatisTest {
         }
     }
 
+    @Test
+    public void  testFindById(){
+
+    }
+
 }

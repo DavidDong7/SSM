@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.neusoft.dao.IAccountDao">
+
+<!--    配置查询结果的列名和实体属性名的对应关系-->
+<!--    id 给定一个唯一标识， 是给select标签引用用的-->
+<!--    type是指 实体类的全限定类名-->
+    <resultMap id="accountMap" type="account">
+<!--        id标签 主键字段的对应-->
+
+        <id property="id" column="ID"></id>
+<!--       result标签 用于指定非主键  ， column是数据库中列名-->
+<!--        property 用于指定实体类属性名名称-->
+        <result property="uid" column="UID"></result>
+        <result property="money" column="MONEY"></result>
+    </resultMap>
+
+<!--    查询所有-->
+    <select id="findAllAccount" resultType="accountuser">
+        select a.*,u.username,u.address from account a,user u where u.id = a.uid
+    </select>
+</mapper>
