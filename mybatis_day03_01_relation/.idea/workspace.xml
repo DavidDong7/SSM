@@ -36,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springday01_01_ioc_demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatisday02_dao_crud_bieming" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
@@ -92,6 +92,8 @@
       <workItem from="1599300009694" duration="5450000" />
       <workItem from="1599382693585" duration="607000" />
       <workItem from="1599442928237" duration="1645000" />
+      <workItem from="1600260034151" duration="814000" />
+      <workItem from="1600308625892" duration="577000" />
     </task>
     <servers />
   </component>
@@ -103,10 +105,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1599301451902" />
-    <state x="165" y="167" key="FileChooserDialogImpl" timestamp="1599448652451">
+    <state x="24" y="0" key="FileChooserDialogImpl" timestamp="1600309203036">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="165" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599448652451" />
+    <state x="24" y="0" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600309203036" />
     <state width="1493" height="279" key="GridCell.Tab.0.bottom" timestamp="1599308221583">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

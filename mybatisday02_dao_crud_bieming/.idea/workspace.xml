@@ -36,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/com/neusoft/dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mybatisday01_03_dao_crud" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.12515645" />
     <property name="project.structure.side.proportion" value="0.17256635" />
@@ -101,6 +101,7 @@
       <updated>1599199685199</updated>
       <workItem from="1599199692055" duration="6152000" />
       <workItem from="1599541766712" duration="503000" />
+      <workItem from="1600309206435" duration="60000" />
     </task>
     <servers />
   </component>
@@ -124,6 +125,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="188" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1599204954480" />
+    <state x="76" y="174" key="FileChooserDialogImpl" timestamp="1600309257231">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="76" y="174" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600309257231" />
     <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1599210538657">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
